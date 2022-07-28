@@ -1,0 +1,48 @@
+<svg id="play-btn" xmlns="http://www.w3.org/2000/svg" width="41.938" height="42.219" viewBox="0 0 41.938 42.219">
+  <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c138 79.159824, 2016/09/14-01:09:01        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""/>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?></metadata>
+<defs>
+    <style>
+      .cls-1 {
+        fill: #004833;
+        opacity: 0.5;
+      }
+
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <path id="Base_2" data-name="Base 2" class="cls-1" d="M834.039,378.289a19.242,19.242,0,0,1,13.866,5.453,21.442,21.442,0,0,1,7.07,15.715,21.209,21.209,0,0,1-7.066,15.857,19.9,19.9,0,0,1-13.994,5.183c-6.652,0-11.749-3.079-15.711-7.808a21.023,21.023,0,0,1-5.18-13.637,21.573,21.573,0,0,1,9.2-17.685C825.729,378.9,829.422,378.289,834.039,378.289Z" transform="translate(-813.031 -378.281)"/>
+  <path id="Play_icon" data-name="Play icon" class="cls-2" d="M829.668,388.959c-1.873.217-2.877,2.759-2.567,9.5,0.309,6.691-.58,10.159,1.979,10.832s11.325-6.008,13.21-7.893,1.2-3.7-1.489-5.855S831.267,388.774,829.668,388.959Z" transform="translate(-813.031 -378.281)"/>
+</svg>

@@ -1,0 +1,17 @@
+import {NAME} from "./constants";
+
+export const FAQ = `${NAME}/FAQ`;
+export const PAGE_CONTENT = `${NAME}/PAGE_CONTENT`;
+export const NAV_PAGE_LIST = `${NAME}/NAV_PAGE_LIST`;
+export const SELECT_ITEM_IN_NAV = `${NAME}/SELECT_ITEM_IN_NAV`;
+export const TOGGLE_NAV = `${NAME}/TOGGLE_NAV`;
+export const IS_SHOW_IFRAME = `${NAME}/IS_SHOW_IFRAME`;
+export const GET_LEADERBOARD_PRIZES_DATA = `${NAME}/GET_LEADERBOARD_PRIZES_DATA`;
+export const USER_IS_SUSPENDED = `${NAME}/USER_IS_SUSPENDED`;
+export const GROUP_DETAIL = `${NAME}/GROUP_DETAIL`;
+export const GAME_DATA = `${NAME}/GAME_DATA`;
+export const GROUP_DETAIL_HTS = `${NAME}/GROUP_DETAIL_HTS`;
+export const GROUP_DETAIL_HEADERS = `${NAME}/GROUP_DETAIL_HEADERS`;
+export const GROUP_DETAIL_MGI = `${NAME}/GROUP_DETAIL_MGI`;
+export const GROUP_DETAIL_TRIVIA = `${NAME}/GROUP_DETAIL_TRIVIA`;
+export const GROUP_DETAIL_HG = `${NAME}/GROUP_DETAIL_HG`;

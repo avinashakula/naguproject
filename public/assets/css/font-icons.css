@@ -1,0 +1,763 @@
+@font-face {
+  font-family:'pp-icons';
+  src:  url('../fonts/pp-icons.eot?r145xg');
+  src:  url('../fonts/pp-icons.eot?r145xg#iefix') format('embedded-opentype'),
+    url('../fonts/pp-icons.ttf?r145xg') format('truetype'),
+    url('../fonts/pp-icons.woff?r145xg') format('woff'),
+    url('../fonts/pp-icons.svg?r145xg#pp-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="pp-"], [class*=" pp-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'pp-icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.pp-blast:before {
+  content: "\e9ec";
+  color: #686b70;
+}
+.pp-refresh2:before {
+  content: "\e9ed";
+  color: #686b70;
+}
+.pp-watch2:before {
+  content: "\e9ee";
+  color: #686b70;
+}
+.pp-x:before {
+  content: "\e9ef";
+  color: #686b70;
+}
+.pp-dots-circle:before {
+  content: "\e9eb";
+}
+.pp-arrow-thin-left:before {
+  content: "\e9e7";
+}
+.pp-arrow-thin-right:before {
+  content: "\e9e8";
+}
+.pp-faq:before {
+  content: "\e9e9";
+}
+.pp-game:before {
+  content: "\e9ea";
+}
+.pp-ball:before {
+  content: "\e9e2";
+}
+.pp-challenges:before {
+  content: "\e9e3";
+}
+.pp-item:before {
+  content: "\e9e4";
+}
+.pp-leader:before {
+  content: "\e9e5";
+}
+.pp-training:before {
+  content: "\e9e6";
+}
+.pp-golf2:before {
+  content: "\e9dd";
+}
+.pp-copy:before {
+  content: "\e9db";
+}
+.pp-ncaaf:before {
+  content: "\e9d6";
+}
+.pp-rainy2:before {
+  content: "\e9d2";
+}
+.pp-mma:before {
+  content: "\e9c5";
+}
+.pp-money-bag:before {
+  content: "\e9c6";
+}
+.pp-pga:before {
+  content: "\e9c7";
+}
+.pp-snooker:before {
+  content: "\e9af";
+}
+.pp-aussie-rules:before {
+  content: "\e99a";
+}
+.pp-badminton:before {
+  content: "\e99b";
+}
+.pp-boxing:before {
+  content: "\e99c";
+}
+.pp-cricket:before {
+  content: "\e99d";
+}
+.pp-cycling:before {
+  content: "\e99e";
+}
+.pp-darts:before {
+  content: "\e99f";
+}
+.pp-esports:before {
+  content: "\e9a0";
+}
+.pp-formula:before {
+  content: "\e9a1";
+}
+.pp-futsal:before {
+  content: "\e9a2";
+}
+.pp-golf:before {
+  content: "\e9a3";
+}
+.pp-handball:before {
+  content: "\e9a4";
+}
+.pp-kabaddi:before {
+  content: "\e9a5";
+}
+.pp-baseball:before {
+  content: "\e9a6";
+}
+.pp-motor-sport:before {
+  content: "\e9a7";
+}
+.pp-basketball:before {
+  content: "\e9a8";
+}
+.pp-ncaa:before {
+  content: "\e9a9";
+}
+.pp-netball:before {
+  content: "\e9aa";
+}
+.pp-hockey:before {
+  content: "\e9ab";
+}
+.pp-rugby-league:before {
+  content: "\e9ac";
+}
+.pp-olympics:before {
+  content: "\e9ad";
+}
+.pp-rugby-union:before {
+  content: "\e9ae";
+}
+.pp-table-tennis:before {
+  content: "\e9b1";
+}
+.pp-tennis:before {
+  content: "\e9b2";
+}
+.pp-volleyball:before {
+  content: "\e9b3";
+}
+.pp-water-polo:before {
+  content: "\e9b4";
+}
+.pp-winter-sports:before {
+  content: "\e9b5";
+}
+.pp-soccer:before {
+  content: "\e90e";
+}
+.pp-cricket-bat:before {
+  content: "\e916";
+}
+.pp-check-board:before {
+  content: "\e9c8";
+}
+.pp-early:before {
+  content: "\e9c9";
+}
+.pp-fire2:before {
+  content: "\e9ca";
+}
+.pp-late:before {
+  content: "\e9cb";
+}
+.pp-lightning-bolt:before {
+  content: "\e9cc";
+}
+.pp-rain:before {
+  content: "\e9cd";
+}
+.pp-snow:before {
+  content: "\e9ce";
+}
+.pp-thunderstorms:before {
+  content: "\e9cf";
+}
+.pp-crown:before {
+  content: "\e9d0";
+}
+.pp-trending-down:before {
+  content: "\e94e";
+}
+.pp-trending-up:before {
+  content: "\e94f";
+}
+.pp-minus-circle:before {
+  content: "\e90f";
+}
+.pp-plus-circle:before {
+  content: "\e910";
+}
+.pp-circle:before {
+  content: "\e911";
+}
+.pp-bell:before {
+  content: "\e907";
+}
+.pp-rainy:before {
+  content: "\e900";
+}
+.pp-cloud:before {
+  content: "\e900";
+}
+.pp-weather:before {
+  content: "\e900";
+}
+.pp-cloudy:before {
+  content: "\e901";
+}
+.pp-weather2:before {
+  content: "\e901";
+}
+.pp-cloudy2:before {
+  content: "\e902";
+}
+.pp-weather3:before {
+  content: "\e902";
+}
+.pp-home:before {
+  content: "\e903";
+}
+.pp-newspaper:before {
+  content: "\e904";
+}
+.pp-pencil:before {
+  content: "\e905";
+}
+.pp-image:before {
+  content: "\e906";
+}
+.pp-camera:before {
+  content: "\e908";
+}
+.pp-bullhorn:before {
+  content: "\e909";
+}
+.pp-connection:before {
+  content: "\e90a";
+}
+.pp-files-empty:before {
+  content: "\e90b";
+}
+.pp-file-text2:before {
+  content: "\e90c";
+}
+.pp-file-zip:before {
+  content: "\e90d";
+}
+.pp-price-tag:before {
+  content: "\e913";
+}
+.pp-price-tags:before {
+  content: "\e914";
+}
+.pp-phone:before {
+  content: "\e915";
+}
+.pp-envelop:before {
+  content: "\e917";
+}
+.pp-pushpin:before {
+  content: "\e918";
+}
+.pp-location:before {
+  content: "\e919";
+}
+.pp-history:before {
+  content: "\e91a";
+}
+.pp-clock:before {
+  content: "\e91b";
+}
+.pp-clock2:before {
+  content: "\e91c";
+}
+.pp-calendar:before {
+  content: "\e91d";
+}
+.pp-display:before {
+  content: "\e91f";
+}
+.pp-mobile:before {
+  content: "\e920";
+}
+.pp-mobile2:before {
+  content: "\e921";
+}
+.pp-undo:before {
+  content: "\e924";
+}
+.pp-redo:before {
+  content: "\e925";
+}
+.pp-undo2:before {
+  content: "\e926";
+}
+.pp-redo2:before {
+  content: "\e927";
+}
+.pp-forward:before {
+  content: "\e928";
+}
+.pp-reply:before {
+  content: "\e929";
+}
+.pp-bubble:before {
+  content: "\e92a";
+}
+.pp-bubbles2:before {
+  content: "\e92b";
+}
+.pp-bubble2:before {
+  content: "\e92c";
+}
+.pp-user:before {
+  content: "\e92d";
+}
+.pp-users:before {
+  content: "\e92e";
+}
+.pp-user-plus:before {
+  content: "\e92f";
+}
+.pp-user-minus:before {
+  content: "\e930";
+}
+.pp-user-check:before {
+  content: "\e931";
+}
+.pp-hour-glass:before {
+  content: "\e932";
+}
+.pp-spinner4:before {
+  content: "\e933";
+}
+.pp-enlarge:before {
+  content: "\e934";
+}
+.pp-shrink:before {
+  content: "\e935";
+}
+.pp-enlarge2:before {
+  content: "\e936";
+}
+.pp-shrink2:before {
+  content: "\e937";
+}
+.pp-key2:before {
+  content: "\e938";
+}
+.pp-lock:before {
+  content: "\e939";
+}
+.pp-equalizer:before {
+  content: "\e93a";
+}
+.pp-equalizer2:before {
+  content: "\e93b";
+}
+.pp-cog:before {
+  content: "\e93c";
+}
+.pp-cogs:before {
+  content: "\e93d";
+}
+.pp-pie-chart:before {
+  content: "\e93e";
+}
+.pp-stats-dots:before {
+  content: "\e93f";
+}
+.pp-stats-bars:before {
+  content: "\e940";
+}
+.pp-stats-bars2:before {
+  content: "\e941";
+}
+.pp-trophy:before {
+  content: "\e942";
+}
+.pp-gift:before {
+  content: "\e943";
+}
+.pp-meter:before {
+  content: "\e944";
+}
+.pp-fire:before {
+  content: "\e945";
+}
+.pp-bin:before {
+  content: "\e946";
+}
+.pp-switch:before {
+  content: "\e948";
+}
+.pp-clipboard:before {
+  content: "\e949";
+}
+.pp-list-numbered:before {
+  content: "\e94a";
+}
+.pp-list2:before {
+  content: "\e94b";
+}
+.pp-tree:before {
+  content: "\e94c";
+}
+.pp-menu:before {
+  content: "\e94d";
+}
+.pp-cloud2:before {
+  content: "\e951";
+}
+.pp-cloud-download:before {
+  content: "\e952";
+}
+.pp-cloud-upload:before {
+  content: "\e953";
+}
+.pp-cloud-check:before {
+  content: "\e954";
+}
+.pp-link:before {
+  content: "\e955";
+}
+.pp-flag:before {
+  content: "\e956";
+}
+.pp-attachment:before {
+  content: "\e957";
+}
+.pp-eye:before {
+  content: "\e958";
+}
+.pp-eye-plus:before {
+  content: "\e959";
+}
+.pp-eye-minus:before {
+  content: "\e95a";
+}
+.pp-eye-blocked:before {
+  content: "\e95b";
+}
+.pp-bookmark:before {
+  content: "\e95c";
+}
+.pp-bookmarks:before {
+  content: "\e95d";
+}
+.pp-contrast:before {
+  content: "\e95f";
+}
+.pp-sun:before {
+  content: "\e95e";
+}
+.pp-brightness-contrast:before {
+  content: "\e960";
+}
+.pp-star-empty:before {
+  content: "\e961";
+}
+.pp-star-half:before {
+  content: "\e962";
+}
+.pp-star-full:before {
+  content: "\e963";
+}
+.pp-heart:before {
+  content: "\e964";
+}
+.pp-smile:before {
+  content: "\e965";
+}
+.pp-smile2:before {
+  content: "\e966";
+}
+.pp-sad:before {
+  content: "\e967";
+}
+.pp-sad2:before {
+  content: "\e968";
+}
+.pp-plus:before {
+  content: "\e96a";
+}
+.pp-minus:before {
+  content: "\e96b";
+}
+.pp-notification:before {
+  content: "\e969";
+}
+.pp-info-circle:before {
+  content: "\e96c";
+}
+.pp-info:before {
+  content: "\e9d1";
+}
+.pp-cancel-circle:before {
+  content: "\e96d";
+}
+.pp-blocked:before {
+  content: "\e96e";
+}
+.pp-cross:before {
+  content: "\e96f";
+}
+.pp-cross-fill:before {
+  content: "\e9d8";
+}
+.pp-checkmark:before {
+  content: "\e970";
+}
+.pp-check2:before {
+  content: "\e912";
+}
+.pp-check:before {
+  content: "\e91e";
+}
+.pp-loop2:before {
+  content: "\e972";
+}
+.pp-arrow-up2:before {
+  content: "\e973";
+}
+.pp-arrow-right2:before {
+  content: "\e974";
+}
+.pp-arrow-down2:before {
+  content: "\e975";
+}
+.pp-arrow-left2:before {
+  content: "\e976";
+}
+.pp-circle-up:before {
+  content: "\e977";
+}
+.pp-circle-right:before {
+  content: "\e978";
+}
+.pp-circle-down:before {
+  content: "\e979";
+}
+.pp-circle-left:before {
+  content: "\e97a";
+}
+.pp-sort-alpha-asc:before {
+  content: "\e97b";
+}
+.pp-sort-amount-asc:before {
+  content: "\e97c";
+}
+.pp-list-nav:before {
+  content: "\e985";
+}
+.pp-turning-arrow:before {
+  content: "\e986";
+}
+.pp-important:before {
+  content: "\e9c2";
+}
+.pp-facebook:before {
+  content: "\e9c3";
+}
+.pp-twitter:before {
+  content: "\e9c4";
+}
+.pp-comparison:before {
+  content: "\e9d3";
+}
+.pp-edit:before {
+  content: "\e9d4";
+}
+.pp-horse-race:before {
+  content: "\e971";
+}
+.pp-logout:before {
+  content: "\e981";
+}
+.pp-tools:before {
+  content: "\e982";
+}
+.pp-ladder:before {
+  content: "\e947";
+}
+.pp-arrow-down:before {
+  content: "\e9bd";
+}
+.pp-arrow-left:before {
+  content: "\e9be";
+}
+.pp-arrow-right:before {
+  content: "\e9bf";
+}
+.pp-arrow-up:before {
+  content: "\e9c0";
+}
+.pp-continue:before {
+  content: "\e922";
+}
+.pp-cruncher:before {
+  content: "\e923";
+}
+.pp-jersey:before {
+  content: "\e9bb";
+}
+.pp-jerseys:before {
+  content: "\e9bc";
+}
+.pp-question:before {
+  content: "\e97d";
+}
+.pp-question-circle:before {
+  content: "\e983";
+}
+.pp-search:before {
+  content: "\e97e";
+}
+.pp-search-plus:before {
+  content: "\e97f";
+}
+.pp-search-minus:before {
+  content: "\e980";
+}
+.pp-question-circle-o:before {
+  content: "\e98e";
+}
+.pp-calendar2:before {
+  content: "\e984";
+}
+.pp-arrows-v:before {
+  content: "\e987";
+}
+.pp-arrows-h:before {
+  content: "\e988";
+}
+.pp-sort:before {
+  content: "\e989";
+}
+.pp-sort-desc:before {
+  content: "\e98a";
+}
+.pp-sort-asc:before {
+  content: "\e98b";
+}
+.pp-long-arrow-down:before {
+  content: "\e98c";
+}
+.pp-long-arrow-up:before {
+  content: "\e98d";
+}
+.pp-long-arrow-left:before {
+  content: "\e9c1";
+}
+.pp-long-arrow-right:before {
+  content: "\e9b0";
+}
+.pp-user-circle:before {
+  content: "\e98f";
+}
+.pp-user-circle-o:before {
+  content: "\e990";
+}
+.pp-predictor:before {
+  content: "\e9d7";
+}
+.pp-stadium:before {
+  content: "\e9d5";
+}
+.pp-active-horse:before {
+  content: "\e9b6";
+}
+.pp-breakdown:before {
+  content: "\e9b7";
+}
+.pp-active-users:before {
+  content: "\e9b8";
+}
+.pp-unique-user:before {
+  content: "\e9b9";
+}
+.pp-meeting:before {
+  content: "\e996";
+}
+.pp-users2:before {
+  content: "\e999";
+}
+.pp-active-meeting:before {
+  content: "\e991";
+}
+.pp-result:before {
+  content: "\e9ba";
+}
+.pp-blocked-user:before {
+  content: "\e992";
+}
+.pp-control:before {
+  content: "\e993";
+}
+.pp-control2:before {
+  content: "\e950";
+}
+.pp-icons:before {
+  content: "\e995";
+}
+.pp-dashboard-setting:before {
+  content: "\e994";
+}
+.pp-password-setting:before {
+  content: "\e997";
+}
+.pp-power:before {
+  content: "\e998";
+}
+.pp-push:before {
+  content: "\e9d9";
+}
+.pp-whatsapp:before {
+  content: "\e9da";
+}
+.pp-win-place:before {
+  content: "\e9dc";
+}
+.pp-drag-arrow:before {
+  content: "\e9de";
+}
+.pp-sms:before {
+  content: "\e9df";
+}
+.pp-thumbs-up:before {
+  content: "\e9e0";
+}
+.pp-trophy2:before {
+  content: "\e9e1";
+}

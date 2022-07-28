@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name='viewport'
+        content='width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no' />
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="googlebot" content="noindex, nofollow">
+    <meta name="title" content="Game Center ">
+    <meta name="description"
+        content="Game Center is a free to play skill-based game hub where customers can compete to win a share of $5,000 in weekly cash by using their skills.">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset='utf-8'>
+    <!-- <meta property="og:title" content="Test your skills for free">
+    <meta property="og:description" content="Game Center is a free to play skill-based game hub where customers can compete to win a share of $5,000 in weekly cash by using their skills.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://hitthespot.paddypower.com/">
+    <meta property="og:site_name" content="Game Center">
+    <meta property="og:image" itemprop="image primaryImageOfPage" content="https://hitthespot.paddypower.com/assets/images/pp_180x180.png">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:domain" content="https://hitthespot.paddypower.com/">
+    <meta name="twitter:title" property="og:title" itemprop="title name" content="Game Center Test your skills for free"> -->
+
+    <title>Game Center </title>
+
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/font-awesome.css%REACT_APP_VERSION%">
+    <link href="%PUBLIC_URL%/assets/css/base.css%REACT_APP_VERSION%" rel="stylesheet" type="text/css">
+    <!-- <link href="%PUBLIC_URL%/assets/css/animate.css%REACT_APP_VERSION%" rel="stylesheet" type="text/css"> -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json%REACT_APP_VERSION%">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/assets/images/favicon.png%REACT_APP_VERSION%">
+    <!-- <link rel="apple-touch-icon" sizes="180x180" href="%PUBLIC_URL%/assets/images/pp_180x180.png">
+    <link rel="apple-touch-icon" sizes="360x360" href="%PUBLIC_URL%/assets/images/pp_360x360.png">
+    <link rel="apple-touch-icon" sizes="540x540" href="%PUBLIC_URL%/assets/images/pp_540x540.png">
+    <link rel="apple-touch-icon" sizes="720x720" href="%PUBLIC_URL%/assets/images/pp_720x720.png"> -->
+
+    <script>
+        window.isROP = 0;
+        window.isNxt = false;
+        window.URLGamePlayingOn = window.location.origin + "%RELATIVE_PATH%";
+    </script>
+
+    
+
+    <!-- Google Tag Manager -->
+    <!-- <script>(function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-P32JX6');</script> -->
+    <!-- End Google Tag Manager -->
+
+    <!-- <script type="text/javascript">
+        (function (p, u, s, h, e, r, l, i, b) {
+            p['XtremePushObject'] = s;
+            p[s] = function () {
+                (p[s].q = p[s].q || []).push(arguments)
+            };
+            i = u.createElement('script');
+            i.async = 1;
+            i.src = h;
+            b = u.getElementsByTagName('script')[0];
+            b.parentNode.insertBefore(i, b);
+        })(window, document, 'xtremepush', 'https://prod.webpu.sh/FuSuTslYW74yOWD76y5wiMXkk7SEg9jN/sdk.js');
+    </script> -->
+
+    <script src="%PUBLIC_URL%/assets/js/jquery-3.6.0.min.js"></script>
+
+    
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <!-- <noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P32JX6"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript> -->
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="root"></div>
+    <script>
+            var domStr = "geniusgames.com.au";
+            // if (window.isROP === 2) {
+            //     domStr = "paddypower.com";
+            // } else if (window.isROP === 1) {
+            //     domStr = "nxt.com.paddypower ";
+            // }
+            document.domain = domStr;
+    </script>
+
+<!-- theme light/dark -->
+<script>
+    var theme = new URLSearchParams(window.location.href).get('theme');
+    switch (theme) {
+        case "light":
+            $('body').removeClass('dark-mode');
+            break;
+        case "dark":
+            $('body').addClass('dark-mode');
+            break;
+        default:
+            $('body').removeClass('dark-mode');
+            break;
+    }
+</script>
+<!-- theme light/dark -->
+
+</body>
+
+</html>
